@@ -1,0 +1,38 @@
+.bunker {
+    height: 60px;
+    width: 90px;
+    position: relative;
+}
+.sub-block{
+    width: 10px;
+    height: 10px;
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+
+.block  {
+    display: grid;
+    
+}
+.thirty {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 30px;
+    height: 30px;
+}
+
+#top {
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+#left, #right, #middle {
+    bottom: 0;
+    position: absolute;
+}
+#middle {
+    left: 30px;
+}
+#right {
+    left: 60px;
+}

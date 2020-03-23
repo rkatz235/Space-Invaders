@@ -1,0 +1,9 @@
+.shooter {
+    position: absolute;
+    bottom: 0;
+    transition-duration: 0.4s;
+}
+.shooter img {
+    width: 150px;
+    height: 150px;
+}
